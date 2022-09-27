@@ -1,0 +1,11 @@
+package components;
+//1.2.2 Creation of the CurrentAccount and SavingsAccount
+
+public class CurrentAccount extends Account{
+
+	public CurrentAccount(int label, Client client) {
+		super(label, client);
+	}
+
+	
+}

@@ -8,10 +8,11 @@ public abstract class Account {
 	protected Client client;
 	
 	
-	public Account(int label, double balance) {
+
+	public Account(int label, Client client) {
 		super();
 		this.label = label;
-		this.balance = balance;
+		this.client = client;
 	}
 
 
@@ -62,13 +63,6 @@ public abstract class Account {
 	}
 
 
-	public Account(int label, double balance, int accountNumber, Client client) {
-		super();
-		this.label = label;
-		this.balance = balance;
-		this.accountNumber = accountNumber;
-		this.client = client;
-	}
 	
 	
 	
