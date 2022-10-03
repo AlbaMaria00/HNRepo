@@ -31,7 +31,7 @@ public abstract class Account {
 	}
 
 
-	public void setBalance(double balance) {
+	public void setBalance(double balance,Object Flow) {
 		this.balance = balance;
 	}
 
