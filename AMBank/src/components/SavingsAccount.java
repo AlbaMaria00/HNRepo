@@ -3,7 +3,7 @@ package components;
 
 public class SavingsAccount extends Account{
 
-	public SavingsAccount(int label, Client client) {
+	public SavingsAccount(String label, Client client) {
 		super(label, client);
 	}
 

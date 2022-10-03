@@ -1,5 +1,6 @@
 package components;
 
+import java.time.LocalDate;
 import java.util.Date;
 
 public abstract class Flow {
@@ -8,7 +9,7 @@ public abstract class Flow {
 	private double amount;
 	private int accountNumber;
 	private boolean effect;
-	private Date dateOfFlow;
+	private LocalDate dateOfFlow;
 
 	public String getComment() {
 		return comment;
@@ -50,15 +51,15 @@ public abstract class Flow {
 		this.effect = effect;
 	}
 
-	public Date getDateOfFlow() {
+	public LocalDate getDateOfFlow() {
 		return dateOfFlow;
 	}
 
-	public void setDateOfFlow(Date dateOfFlow) {
-		this.dateOfFlow = dateOfFlow;
+	public void setDateOfFlow(LocalDate localDate) {
+		this.dateOfFlow = localDate;
 	}
 
-	public Flow(String comment, int identifier, double amount, int accountNumber, boolean effect, Date dateOfFlow) {
+	public Flow(String comment, int identifier, double amount, int accountNumber, boolean effect, LocalDate dateOfFlow) {
 		super();
 		this.comment = comment;
 		this.identifier = identifier;

@@ -2,26 +2,26 @@ package components;
 //1.2.1 Creation of the account class
 
 public abstract class Account {
-	protected int label;
+	protected String label;
 	protected double balance;
 	protected int accountNumber;
 	protected Client client;
 	
 	
 
-	public Account(int label, Client client) {
+	public Account(String label, Client client) {
 		super();
 		this.label = label;
 		this.client = client;
 	}
 
 
-	public int getLabel() {
+	public String getLabel() {
 		return label;
 	}
 
 
-	public void setLabel(int label) {
+	public void setLabel(String label) {
 		this.label = label;
 	}
 
