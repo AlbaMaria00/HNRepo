@@ -13,4 +13,11 @@ public class Transfert extends Flow {
 		this.accountThatTransfer = accountThatTransfer;
 	}
 
+	@Override
+	public String toString() {
+		return "Transfert [accountThatTransfer=" + accountThatTransfer + "]";
+	}
+	
+	
+
 }
