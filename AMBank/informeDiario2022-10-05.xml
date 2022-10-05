@@ -1,2 +1,0 @@
-<data>
-   <Account [label=Saving Account, balance=1400.0, accountNumber=1, client=Client [name=alba, firstName=paris, number=1]]>    <Account [label=Current Account, balance=150.5, accountNumber=2, client=Client [name=alba, firstName=paris, number=1]]>    <Account [label=Saving Account, balance=1500.0, accountNumber=3, client=Client [name=pepe, firstName=juan, number=2]]>    <Account [label=Current Account, balance=100.5, accountNumber=4, client=Client [name=pepe, firstName=juan, number=2]]> 
